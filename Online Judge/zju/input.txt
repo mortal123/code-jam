@@ -1,0 +1,15 @@
+2
+2 2 4
+aaaaaaaaaaaa
+1
+1
+aa
+4
+4 4 4 4
+ttttttttttttttt
+4
+4 4 4 4
+abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd
+2
+4 2
+aaaaa

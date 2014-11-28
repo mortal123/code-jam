@@ -1,0 +1,5 @@
+aaabccd
+3
+ac
+abc
+aaa
