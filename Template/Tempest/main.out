@@ -1,0 +1,58 @@
+\BOOKMARK [1][-]{section.1}{O\(m2logn\) 线性递推第n项}{}% 1
+\BOOKMARK [1][-]{section.2}{NTT}{}% 2
+\BOOKMARK [1][-]{section.3}{中国剩余定理}{}% 3
+\BOOKMARK [1][-]{section.4}{Miller\040Rabin}{}% 4
+\BOOKMARK [1][-]{section.5}{Pollard\040Rho}{}% 5
+\BOOKMARK [1][-]{section.6}{直线下整点个数}{}% 6
+\BOOKMARK [1][-]{section.7}{FFT}{}% 7
+\BOOKMARK [1][-]{section.8}{解一元三次方程+求三阶二次型的标准型}{}% 8
+\BOOKMARK [1][-]{section.9}{自适应辛普森}{}% 9
+\BOOKMARK [1][-]{section.10}{圆与多边形交}{}% 10
+\BOOKMARK [1][-]{section.11}{动态凸包}{}% 11
+\BOOKMARK [1][-]{section.12}{farmland}{}% 12
+\BOOKMARK [1][-]{section.13}{半平面交}{}% 13
+\BOOKMARK [1][-]{section.14}{三维绕轴旋转}{}% 14
+\BOOKMARK [1][-]{section.15}{O\(nlogk\) 判断圆存在交集}{}% 15
+\BOOKMARK [1][-]{section.16}{O\(n2logn\) 圆交+计算面积和重心}{}% 16
+\BOOKMARK [1][-]{section.17}{三维凸包}{}% 17
+\BOOKMARK [1][-]{section.18}{点在多边形内}{}% 18
+\BOOKMARK [1][-]{section.19}{KD树}{}% 19
+\BOOKMARK [1][-]{section.20}{树链剖分}{}% 20
+\BOOKMARK [1][-]{section.21}{可持久化左偏树}{}% 21
+\BOOKMARK [1][-]{section.22}{Treap}{}% 22
+\BOOKMARK [1][-]{section.23}{坚固的Treap}{}% 23
+\BOOKMARK [1][-]{section.24}{LCT}{}% 24
+\BOOKMARK [1][-]{section.25}{Splay}{}% 25
+\BOOKMARK [1][-]{section.26}{Gabow算法求点双联通分量\(非递归\)}{}% 26
+\BOOKMARK [1][-]{section.27}{O\(EV0.5\) HK求二分图最大匹配}{}% 27
+\BOOKMARK [1][-]{section.28}{O\(V3\) 最小树形图}{}% 28
+\BOOKMARK [1][-]{section.29}{KM}{}% 29
+\BOOKMARK [1][-]{section.30}{带花树}{}% 30
+\BOOKMARK [1][-]{section.31}{无向图最小割}{}% 31
+\BOOKMARK [1][-]{section.32}{哈密尔顿回路}{}% 32
+\BOOKMARK [1][-]{section.33}{弦图判定}{}% 33
+\BOOKMARK [1][-]{section.34}{弦图求团数}{}% 34
+\BOOKMARK [1][-]{section.35}{ZKW费用流}{}% 35
+\BOOKMARK [1][-]{section.36}{扩展KMP}{}% 36
+\BOOKMARK [1][-]{section.37}{后缀数组}{}% 37
+\BOOKMARK [1][-]{section.38}{DC3}{}% 38
+\BOOKMARK [1][-]{section.39}{AC自动机}{}% 39
+\BOOKMARK [1][-]{section.40}{极长回文子串}{}% 40
+\BOOKMARK [1][-]{section.41}{后缀自动机 多次询问串在母串中出现的次数}{}% 41
+\BOOKMARK [1][-]{section.42}{循环串的最小表示}{}% 42
+\BOOKMARK [1][-]{section.43}{快速求逆}{}% 43
+\BOOKMARK [1][-]{section.44}{求某年某月某日是星期几}{}% 44
+\BOOKMARK [1][-]{section.45}{LL*LL\045LL}{}% 45
+\BOOKMARK [1][-]{section.46}{next_nCk}{}% 46
+\BOOKMARK [1][-]{section.47}{单纯形}{}% 47
+\BOOKMARK [1][-]{section.48}{环状最长公共子序列}{}% 48
+\BOOKMARK [1][-]{section.49}{长方体表面两点最近距离}{}% 49
+\BOOKMARK [1][-]{section.50}{插头DP}{}% 50
+\BOOKMARK [1][-]{section.51}{极大团搜索}{}% 51
+\BOOKMARK [1][-]{section.52}{Dancing\040Links\040X}{}% 52
+\BOOKMARK [1][-]{section.53}{积分表}{}% 53
+\BOOKMARK [1][-]{section.54}{网络流}{}% 54
+\BOOKMARK [1][-]{section.55}{2-SAT}{}% 55
+\BOOKMARK [1][-]{section.56}{二分图}{}% 56
+\BOOKMARK [1][-]{section.57}{Java}{}% 57
+\BOOKMARK [1][-]{section.58}{Rope}{}% 58

@@ -1,0 +1,170 @@
+\documentclass[landscape, twocolumn, 8pt, a4paper, twoside]{extarticle}
+
+\usepackage{xeCJK, amsmath, amsthm, graphicx, amsfonts, fancyhdr, ctable, pict2e, CJKulem, multirow, rotating, geometry, listings}
+\usepackage[CJKbookmarks, colorlinks = true, linkcolor = red, anchorcolor = blue, citecolor = blue, pdfstartview={FitH}]{hyperref}
+
+\newcommand{\ud}{\mathrm{d}}
+
+\renewcommand{\baselinestretch}{0.8}
+\geometry{left=0.5cm, right=0.5cm, top=1.5cm, bottom=1.5cm}
+\setCJKmainfont{STSong}
+\lstset{language=C++, breaklines, frame=single,
+    numbers=left,
+    escapeinside=``,extendedchars=false,
+    xleftmargin=2.0em,xrightmargin=2.0em,
+    basicstyle=\ttfamily\small, tabsize=2,
+}
+
+\newcommand{\stlf}[2]{\genfrac{ [ }{ ] }{0pt}{}{#1}{#2}}
+\newcommand{\stls}[2]{\genfrac{ \{ }{ \} }{0pt}{}{#1}{#2}}
+
+
+\pagestyle{fancy}
+\lhead{Shanghai Jiao Tong University}
+\chead{\thepage}
+\rhead{Tempest}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+
+\title{Tempest - Standard Code Library}
+
+\begin{document}
+
+%\chapter{数论算法}
+\section{$O(m^2\log n)$ 线性递推第n项}
+	\input{main/linear_recurrence.tex}
+\section{NTT}
+	\input{main/NTT.tex}
+\section{中国剩余定理}
+	\input{main/chinese_remainder_theorem.tex}
+\section{Miller Rabin}
+	\input{main/miller_rabin.tex}
+\section{Pollard Rho}
+	\input{main/pollard_rho.tex}
+\section{直线下整点个数}
+	\input{main/直线下的整点个数.tex}
+
+%\chapter{数值算法}
+\section{FFT}
+	\input{main/FFT.tex}
+\section{解一元三次方程+求三阶二次型的标准型}
+	\input{main/一元三次方程.tex}
+\section{自适应辛普森}
+	\input{main/adaptive_simpson.tex}
+
+%\chapter{计算几何}
+\section{圆与多边形交}
+	\input{main/圆与多边形交.tex}
+\section{动态凸包}
+	\input{main/动态凸包.tex}
+\section{farmland}
+	\input{main/farmland.tex}
+\section{半平面交}
+	\input{main/half_plane_intersection.tex}
+\section{三维绕轴旋转}
+	\input{main/三维绕轴旋转.tex}
+\section{$O(n\log k)$ 判断圆存在交集}
+	\input{main/判断圆存在交集.tex}
+\section{$O(n^2\log n)$ 圆交+计算面积和重心}
+	\input{main/圆交.tex}
+\section{三维凸包}
+	\input{main/3D_convex_hull.tex}
+\section{点在多边形内}
+	\input{main/点在多边形内.tex}
+
+%\chapter{数据结构}
+\section{KD树}
+	\input{main/KD树.tex}
+\section{树链剖分}
+	\input{main/树链剖分.tex}
+\section{可持久化左偏树}
+	\input{main/可持久化左偏树.tex}
+\section{Treap}
+	\input{main/treap.tex}
+\section{坚固的Treap}
+	\input{main/functional_treap.tex}
+\section{LCT}
+	\input{main/link_cut_tree.tex}
+\section{Splay}
+	\input{main/Splay.tex}
+
+%\chapter{图论}
+\section{Gabow算法求点双联通分量(非递归)}
+	\input{main/Gabow.tex}
+\section{$O(EV^{0.5})$ HK求二分图最大匹配}
+	\input{main/Hopcroft_Karp.tex}
+\section{$O(V^3)$ 最小树形图}
+	\input{main/最小树形图.tex}
+	%!!
+\section{KM}
+	\input{main/KM.tex}
+%\section{度限制生成树}
+\section{带花树}
+	\input{main/一般图匹配.tex}
+\section{无向图最小割}
+	\input{main/无向图最小割.tex}
+\section{哈密尔顿回路}
+	\input{main/Hamilton回路.tex}
+\section{弦图判定}
+	\input{main/弦图判定.tex}
+\section{弦图求团数}
+	\input{main/弦图求团数.tex}
+\section{ZKW费用流}
+	\input{main/zkw费用流.tex}
+
+%\chapter{字符串}
+\section{扩展KMP}
+	\input{main/扩展KMP.tex}
+\section{后缀数组}
+	\input{main/后缀数组.tex}
+\section{DC3}
+	\input{main/DC3.tex}
+\section{AC自动机}
+	\input{main/aho_corasick_automation.tex}
+\section{极长回文子串}
+	\input{main/极长回文子串.tex}
+\section{后缀自动机 多次询问串在母串中出现的次数}
+	\input{main/后缀自动机--多次询问串在母串中的出现次数.tex}
+\section{循环串的最小表示}
+	\input{main/SCL_str_cyc_min_rep.tex}
+
+%\chapter{其他}
+\section{快速求逆}
+	\input{main/快速求逆.tex}
+\section{求某年某月某日是星期几}
+	\input{main/求某年某月某日星期几.tex}
+\section{LL*LL\%LL}
+	\input{main/LLMOD.tex}
+\section{next\_nCk}
+	\input{main/next_nCk.tex}
+\section{单纯形}
+	\input{main/单纯形.tex}
+\section{环状最长公共子序列}
+	\input{main/环状最长公共子序列.tex}
+\section{长方体表面两点最近距离}
+	\input{main/长方体表面最近距离.tex}
+\section{插头DP}
+	\input{main/插头DP.tex}
+\section{极大团搜索}
+	\input{main/最大团搜索.tex}
+\section{Dancing Links X}
+	\input{main/Dancing_Links.tex}
+
+%\chapter{提示}
+\section{积分表}
+	\input{main/积分表.tex}
+\section{网络流}
+	下界:(u, v)下界为c:超级源到t建流量为c, s到超级汇建流量为c, (原来的汇到原来的源建无穷, 如果有), 流一遍超级源出边满了就存在可行流.\\
+	下界最大流(有源汇): 上面的搞完从原来的源到原来的汇流一遍\\
+	下界最小流(有源汇): 上面的搞完从原来的汇到原来的源流一遍\\
+\section{2-SAT}
+	每对点都选择强连通时color较小的\\
+\section{二分图}
+	\input{main/二分图.tex}
+\section{Java}
+	\input{main/java_template.tex}
+\section{Rope}
+	\input{main/Usage_of_Rope.tex}
+
+\end{document}
